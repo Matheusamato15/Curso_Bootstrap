@@ -4,7 +4,7 @@
 
 .imagem-carrossel{
     object-fit: cover;
-    object-position: 0 80%;
+    object-position: 0 48%;
     height: 400px;
 }
 
@@ -12,21 +12,32 @@
     font-family: 'Pacifico', cursive;
 }
 
+.cor-fonte-carrosel{
+    color: darkcyan;
+}
+
 .cor-especial{
-    color: darkred;
+    color: darkcyan;
 }
 
 .botao-cor-especial{
-    background-color: darkred;
+    background-color: darkcyan;
     color: white;
 }
 
 .borda-cor-especial{
-    border-color: darkred;
+    border-color: darkcyan;
 }
 
 .card-posicao-imagem{
     object-fit: cover;
     object-position: 0 80%;
     height: 200px;
+}
+
+.config-fonte-modal-quem-somos{
+    font-size: 30px;
+    text-align: center;
+    color: darkcyan;
+    font-family: 'Pacifico', cursive;
 }
