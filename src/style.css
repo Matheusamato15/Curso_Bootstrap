@@ -1,43 +1,63 @@
-.card-largura{
+.texto-navbar-cor-especial{
+    color:#132235; 
+}
+
+.card-largura {
     max-width: 18rem;
 }
 
-.imagem-carrossel{
+.imagem-carrossel {
     object-fit: cover;
     object-position: 0 48%;
     height: 400px;
 }
 
-.fonte-titulo{
+.fonte-titulo {
     font-family: 'Pacifico', cursive;
 }
 
-.cor-fonte-carrosel{
-    color: darkcyan;
+.cor-fonte-carrosel {
+    color: #132235;
 }
 
-.cor-especial{
-    color: darkcyan;
+.cor-especial {
+    color: #132235;
 }
 
-.botao-cor-especial{
-    background-color: darkcyan;
+.botao-cor-especial {
+    background-color: #132235;
     color: white;
 }
 
-.borda-cor-especial{
-    border-color: darkcyan;
+.borda-cor-especial {
+    border-color: #132235;
 }
 
-.card-posicao-imagem{
+.card-posicao-imagem {
     object-fit: cover;
     object-position: 0 80%;
     height: 200px;
 }
 
-.config-fonte-modal-quem-somos{
+.config-fonte-modal-quem-somos {
     font-size: 30px;
     text-align: center;
-    color: darkcyan;
+    color: #132235;
     font-family: 'Pacifico', cursive;
+}
+
+.rodape-cor-especial{
+    background-color: #132235;
+}
+
+.social-icons {
+    text-decoration: none;
+    margin: 5px 2px;/* espaçamento entre eles */
+    color: #fff; /*cor do icone */
+}
+
+.social-icons:hover {
+    color: #000000;
+    /* cor do icone com mouse encima */
+    opacity: 0.7;
 }
