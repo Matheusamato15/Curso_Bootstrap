@@ -32,10 +32,12 @@
                 <a class="nav-link active texto-navbar-cor-especial" aria-current="page" href="#">Início</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link texto-navbar-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-quem-somos" href="#">Quem somos</a>
+                <a class="nav-link texto-navbar-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-quem-somos"
+                  href="#">Quem somos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link texto-navbar-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-contato" href="#">Contato</a>
+                <a class="nav-link texto-navbar-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-contato"
+                  href="#">Contato</a>
               </li>
             </ul>
           </div>
@@ -79,20 +81,20 @@
       <title>F4LIFE</title>
 
       <section id="titulo">
-        <h1 class="text-center fonte-titulo cor-especial pt-5">Moradias para o seu conforto e segurança durante a graduação</h1>
+        <h1 class="text-center fonte-titulo cor-especial pt-5">Moradias para o seu conforto e segurança durante a
+          graduação</h1>
         <p class="text-center text-secondary pb-5">Nossos apartamentos ajudam você a ficar
-          mais confortável durante a sua vida acadêmica, oferecendo um espaço tranquilo e com 
+          mais confortável durante a sua vida acadêmica, oferecendo um espaço tranquilo e com
           ar fresco para poder estudar e descansar</p class="text-center">
       </section>
 
       <section class="container-fluid bg-light" id="receitas">
         <div class="row justify-content-center">
           <article class="card borda-cor-especial card-largura col-md-4 col-12 p-0 m-4">
-            <img src="src/img/seguranca.jpg" class="card-img-top card-posicao-imagem"
-              alt="Imagem de portão eletrônico">
+            <img src="src/img/seguranca.jpg" class="card-img-top card-posicao-imagem" alt="Imagem de portão eletrônico">
             <div class="card-body">
               <h5 class="card-title">Segurança</h5>
-              <p class="card-text">Possuímos portão eletrônico para segurança</p> 
+              <p class="card-text">Possuímos portão eletrônico para segurança</p>
             </div>
           </article>
 
@@ -101,7 +103,7 @@
               alt="tigela com salada de abacate, vista superior">
             <div class="card-body">
               <h5 class="card-title">Lazer</h5>
-              <p class="card-text">Área de lazer para descansar com vista para rua</p>  
+              <p class="card-text">Área de lazer para descansar com vista para rua</p>
             </div>
           </article>
 
@@ -118,63 +120,70 @@
     </main>
 
     <footer class="rodape-cor-especial p-3 text-center">
-      <p class="text-light m-0 text-center">contato: <a href="mailto:email@f4life.com.br" class="text-light">email@f4life.com.br</a></p>
+      <p class="text-light m-0 text-center">contato: <a href="mailto:email@f4life.com.br"
+          class="text-light">email@f4life.com.br</a></p>
       <a href="https://pt-br.facebook.com/" target="_blank" class="social-icons fa fa-facebook"></a>
       <a href="https://twitter.com/home" target="_blank" class="social-icons fa fa-twitter"></a>
       <a href="https://www.instagram.com/" target="_blank" class="social-icons fa fa-instagram"></a>
     </footer>
 
     <!-- Modal CONTATO-->
-    <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Entre em contato</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <form>
-              <div class="form-group">
-                <label for="formGroupExampleInput">Nome completo</label>
-                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Insira seu nome completo">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlInput1">Endereço de email</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nome@exemplo.com">
-              </div>
-              <div class="form-group">
-                <label for="exampleFormControlTextArea1">Digite sua mensagem</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Insira aqui a sua mensagem"></textarea>
-              </div>
-            </form>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-            <button type="button" class="btn botao-cor-especial">Enviar</button>
-          </div>
+    <form>
+      <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <dialog class="modal-content">
+            <header class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Fale conosco</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </header>
+            <main class="modal-body">
+              <form>
+                <div class="form-group">
+                  <label for="formGroupExampleInput">Nome completo</label>
+                  <input type="text" class="form-control" id="formGroupExampleInput"
+                    placeholder="Insira seu nome completo" required>
+                </div>
+                <div class="form-group">
+                  <label for="email">Endereço de email</label>
+                  <input type="email" class="form-control" id="exampleFormControlInput1"
+                    placeholder="seuemail@dominio.com" required>
+                </div>
+                <div class="form-group">
+                  <label for="exampleFormControlTextArea1">Digite sua mensagem</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                    placeholder="Insira aqui a sua mensagem" required></textarea>
+                </div>
+              </form>
+            </main>
+            <footer class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <input type="submit" value="Enviar" class=" btn botao-cor-especial">
+            </footer>
+          </dialog>
         </div>
       </div>
-    </div>
+    </form>
 
     <!-- Modal SOBRE NÓS-->
     <div class="modal fade" id="modal-quem-somos" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel">Quem somos</h5>
+          <header class="modal-header">
+            <h5 class="modal-title cor-especial fonte-titulo fs-1" id="exampleModalLabel">Quem somos</h5>
             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-          </div>
-          <div class="modal-body">
-            <h1 class ="config-fonte-modal-quem-somos">F4Life é uma empresa de aluguéis de repúblicas    para pessoas universitárias. 
-              Similar aos modelos de Quinto Andar e Loft, 
-              a empresa realiza reformas e prepara moradias 
-              para recepção de pessoas universitárias em um ambiente específico 
+          </header>
+          <body class="modal-body">
+            <h6 class="config-fonte-modal-quem-somos">F4Life é uma empresa de aluguéis de repúblicas para pessoas
+              universitárias.
+              Similar aos modelos de Quinto Andar e Loft,
+              a empresa realiza reformas e prepara moradias
+              para recepção de pessoas universitárias em um ambiente específico
               e otimizado para a vida de graduação.
             </h1>
-          </div>
-          <div class="modal-footer">
+          </body>
+          <footer class="modal-footer">
             <button type="button" class="btn btn-secondary botao-cor-especial" data-bs-dismiss="modal">Fechar</button>
-          </div>
+          </footer>
         </div>
       </div>
     </div>
