@@ -12,17 +12,16 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="src/style.css">
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
 
   <body>
 
     <header>
-      <nav class="navbar navbar-expand-lg bg-light fixed-top navbar-cor-especial">
+      <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand texto-navbar-cor-especial" href="#">F4LIFE MORADIAS UNIVERSITÁRIAS</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -128,7 +127,7 @@
     </footer>
 
     <!-- Modal CONTATO-->
-    <form>
+    <form id="form-contato" name="formulario-contato">
       <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog">
           <dialog class="modal-content">
@@ -140,24 +139,24 @@
               <form>
                 <div class="form-group">
                   <label for="formGroupExampleInput">Nome completo</label>
-                  <input type="text" class="form-control" id="formGroupExampleInput"
-                    placeholder="Insira seu nome completo" required>
+                  <input type="text" class="form-control" id="inputNome"
+                    placeholder="Insira seu nome completo">
                 </div>
                 <div class="form-group">
                   <label for="email">Endereço de email</label>
-                  <input type="email" class="form-control" id="exampleFormControlInput1"
-                    placeholder="seuemail@dominio.com" required>
+                  <input type="email" class="form-control" id="inputEmail"
+                    placeholder="seuemail@dominio.com">
                 </div>
                 <div class="form-group">
                   <label for="exampleFormControlTextArea1">Digite sua mensagem</label>
-                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
-                    placeholder="Insira aqui a sua mensagem" required></textarea>
+                  <textarea class="form-control" id="inputTextArea" rows="3"
+                    placeholder="Insira aqui a sua mensagem"></textarea>
                 </div>
               </form>
             </main>
             <footer class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
-              <input type="submit" value="Enviar" class=" btn botao-cor-especial">
+              <input type="submit" value="Enviar" class=" btn botao-cor-especial" id="inputSubmit">
             </footer>
           </dialog>
         </div>
@@ -201,6 +200,8 @@
       integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous">
     </script>
     <script src=""></script>
+    <script src="src/main.js"></script>
+    
 
   </body>
 
