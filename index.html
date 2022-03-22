@@ -5,13 +5,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>F4LIFE</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Pacifico&display=swap"
-      rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- fontes usadas no site-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- fontes usadas no site-->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&           family=Pacifico&display=swap" 
+      rel="stylesheet"> <!-- fontes usadas no site-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- link do bootstrap-->
+    <link rel="stylesheet" href="src/style.css"> <!-- css criado do site-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
   </head>
 
@@ -20,21 +20,21 @@
     <header>
       <nav class="navbar navbar-expand-lg bg-light fixed-top">
         <div class="container-fluid">
-          <a class="navbar-brand texto-navbar-cor-especial" href="#">F4LIFE MORADIAS UNIVERSITÁRIAS</a>
-          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <a class="navbar-brand texto-navbar-cor-especial" href="#">F4LIFE MORADIAS UNIVERSITÁRIAS</a> <!-- título do site na navbar -->
+          <button class="navbar-toggler navbar-light" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active texto-navbar-cor-especial" aria-current="page" href="#">Início</a>
+            <ul class="navbar-nav"> <!-- lista da navbar -->
+              <li class="nav-item"> <!-- item Início na navbar -->
+                <a class="nav-link active texto-navbar-cor-especial" aria-current="page" href="#">Início</a> 
               </li>
-              <li class="nav-item">
+              <li class="nav-item"> <!-- item Quem somos na navbar -->
                 <a class="nav-link texto-navbar-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-quem-somos"
                   href="#">Quem somos</a>
               </li>
-              <li class="nav-item">
+              <li class="nav-item"> <!-- item Contato na navbar -->
                 <a class="nav-link texto-navbar-cor-especial" data-bs-toggle="modal" data-bs-target="#modal-contato"
                   href="#">Contato</a>
               </li>
@@ -45,7 +45,7 @@
     </header>
 
     <main>
-      <section id="carrossel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel">
+      <section id="carrossel" class="carousel slide" data-bs-interval="3000" data-bs-ride="carousel"> <!-- sessão do carrossel com as fotos -->
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
             aria-current="true" aria-label="Slide 1"></button>
@@ -53,12 +53,12 @@
             aria-label="Slide 2"></button>
         </div>
         <div class="carousel-inner">
-          <div class="carousel-item active">
+          <div class="carousel-item active"> <!-- primeiro item do carrossel -->
             <img src="src/img/F4LIFE.png" class="d-block w-100 imagem-carrossel" alt="...">
             <div class="carousel-caption d-none d-md-block h-50">
             </div>
           </div>
-          <div class="carousel-item">
+          <div class="carousel-item"> <!-- segundo item do carrossel -->
             <img src="src/img/kitnet.jpg" class="d-block w-100 imagem-carrossel" alt="...">
             <div class="carousel-caption d-none d-md-block h-50">
               <h1 class="fonte-titulo display-4 cor-fonte-carrosel">Economize e fique confortável!</h1>
@@ -77,9 +77,9 @@
         </button>
       </section>
 
-      <title>F4LIFE</title>
+      <title>F4LIFE</title> <!-- título da página -->
 
-      <section id="titulo">
+      <section id="titulo"> <!-- sessão com o texto breve sobre a empresa -->
         <h1 class="text-center fonte-titulo cor-especial pt-5">Moradias para o seu conforto e segurança durante a
           graduação</h1>
         <p class="text-center text-secondary pb-5">Nossos apartamentos ajudam você a ficar
@@ -87,8 +87,9 @@
           ar fresco para poder estudar e descansar</p class="text-center">
       </section>
 
-      <section class="container-fluid bg-light" id="receitas">
-        <div class="row justify-content-center">
+      <section class="container-fluid bg-light" id="moradias"> 
+        <div class="row justify-content-center"> 
+          <!-- card de segurança -->
           <article class="card borda-cor-especial card-largura col-md-4 col-12 p-0 m-4">
             <img src="src/img/seguranca.jpg" class="card-img-top card-posicao-imagem" alt="Imagem de portão eletrônico">
             <div class="card-body">
@@ -97,6 +98,7 @@
             </div>
           </article>
 
+          <!-- card de lazer -->
           <article class="card borda-cor-especial card-largura col-md-4 col-12 p-0 m-4">
             <img src="src/img/lazer.jpg" class="card-img-top card-posicao-imagem"
               alt="tigela com salada de abacate, vista superior">
@@ -106,6 +108,7 @@
             </div>
           </article>
 
+          <!-- card de conforto -->
           <article class="card borda-cor-especial card-largura col-md-4 col-12 p-0 m-4">
             <img src="src/img/conforto.jpg" class="card-img-top card-posicao-imagem"
               alt="prato com mix de vegetais e mão de pessoa adicionando azeite, vista superior">
@@ -120,34 +123,36 @@
 
     <footer class="rodape-cor-especial p-3 text-center">
       <p class="text-light m-0 text-center">contato: <a href="mailto:email@f4life.com.br"
-          class="text-light">email@f4life.com.br</a></p>
-      <a href="https://pt-br.facebook.com/" target="_blank" class="social-icons fa fa-facebook"></a>
+          class="text-light">email@f4life.com.br</a>
+      </p> <!-- email de contato da empresa -->
+      <!-- símbolo facebook -->    
+      <a href="https://pt-br.facebook.com/" target="_blank" class="social-icons fa fa-facebook"></a> 
+      <!-- símbolo twitter -->
       <a href="https://twitter.com/home" target="_blank" class="social-icons fa fa-twitter"></a>
+      <!-- símbolo instagram -->
       <a href="https://www.instagram.com/" target="_blank" class="social-icons fa fa-instagram"></a>
     </footer>
 
     <!-- Modal CONTATO-->
-    <form id="form-contato" name="formulario-contato">
-      <div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <form id="form-contato" name="formulario-contato"> <!-- formulário de contato -->
+      <div class="modal fade" id="modal-contato" tabindex="-1"  aria-labelledby="exampleModalLabel" aria-hidden="true"> <!-- div modal contato -->
         <div class="modal-dialog">
           <dialog class="modal-content">
             <header class="modal-header">
               <h5 class="modal-title" id="exampleModalLabel">Fale conosco</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <!-- botão X superior para fechar o modal -->
             </header>
             <main class="modal-body">
               <form>
-                <div class="form-group">
+                <div class="form-group"> <!-- label e input para nome do usuário -->
                   <label for="formGroupExampleInput">Nome completo</label>
-                  <input type="text" class="form-control" id="inputNome"
-                    placeholder="Insira seu nome completo">
+                  <input type="text" class="form-control" id="inputNome" placeholder="Insira seu nome completo"> 
                 </div>
-                <div class="form-group">
+                <div class="form-group"> <!-- label e input para email do usuário -->
                   <label for="email">Endereço de email</label>
-                  <input type="email" class="form-control" id="inputEmail"
-                    placeholder="seuemail@dominio.com">
+                  <input type="email" class="form-control" id="inputEmail" placeholder="seuemail@dominio.com">
                 </div>
-                <div class="form-group">
+                <div class="form-group"> <!-- label e text area para mensagem do usuário -->
                   <label for="exampleFormControlTextArea1">Digite sua mensagem</label>
                   <textarea class="form-control" id="inputTextArea" rows="3"
                     placeholder="Insira aqui a sua mensagem"></textarea>
@@ -155,7 +160,7 @@
               </form>
             </main>
             <footer class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button> <!-- botão fechar no final do modal -->
               <input type="submit" value="Enviar" class=" btn botao-cor-especial" id="inputSubmit">
             </footer>
           </dialog>
@@ -169,26 +174,27 @@
         <div class="modal-content">
           <header class="modal-header">
             <h5 class="modal-title cor-especial fonte-titulo fs-1" id="exampleModalLabel">Quem somos</h5>
-            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button> <!-- botão X superior para fechar o modal -->
           </header>
-          <body class="modal-body">
+
+          <main class="modal-body"> <!-- descrição da empresa -->
             <h6 class="config-fonte-modal-quem-somos">F4Life é uma empresa de aluguéis de repúblicas para pessoas
               universitárias.
               Similar aos modelos de Quinto Andar e Loft,
               a empresa realiza reformas e prepara moradias
               para recepção de pessoas universitárias em um ambiente específico
               e otimizado para a vida de graduação.
-            </h1>
-          </body>
+              </h1>
+          </main>
           <footer class="modal-footer">
-            <button type="button" class="btn btn-secondary botao-cor-especial" data-bs-dismiss="modal">Fechar</button>
+            <button type="button" class="btn btn-secondary botao-cor-especial" data-bs-dismiss="modal">Fechar</button> <!-- botão fechar no final do modal -->
           </footer>
         </div>
       </div>
     </div>
 
 
-
+    <!-- scripts utilizados no site -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
@@ -201,7 +207,7 @@
     </script>
     <script src=""></script>
     <script src="src/main.js"></script>
-    
+
 
   </body>
 
